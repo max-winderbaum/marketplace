@@ -12,6 +12,6 @@
   "featured": false,
   "install": {
     "args": ["comment-io", "--transport", "http", "https://comment.io/mcp"],
-    "notes": "Cline's default OAuth flow uses dynamic client registration, which Comment.io does not offer. Comment.io requires an HTTPS client metadata document as the client ID with a matching redirect URI. A Cline connection has not been verified. See https://comment.io/auth.md or contact support@comment.io."
+    "notes": "Comment.io supports dynamic OAuth client registration and HTTPS client metadata documents. Connecting requires a workspace member's approval; an authenticated Cline connection has not been verified. See https://comment.io/auth.md or contact support@comment.io."
   }
 }
